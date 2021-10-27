@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+        <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google font link -->
+
+        <!-- vendors Css link -->
+    <link rel="stylesheet" href="vendors/css/animate.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+        <!-- Main Css link -->
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+        <!-- title -->
+    <title>Portfolio</title>
+    <meta name="description" content="This is my personal Portfolio">
+        <!-- favicon -->
+    <link rel="shortcut icon" href="resources/favicon/fav.png" type="image/x-icon">
+        <!-- Apple touch Icon -->
+    <link rel="apple-touch-icon" href="icon.png">    
+</head>
+<body>
+            <!-- Start hero area -->
+    <header id="hero">
+        <div id="particles-js"></div>      
+        <div class="container">
+            <div class="menu-area clearfix" data-uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+                <div class="container">
+                    <div class="logo">
+                        <a href="javascript:void()">
+                            <img src="resources/logo/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <a href="javascript:void()" onclick="openMenu()"><ion-icon name="grid-outline"></ion-icon></a>
+                    </div>
+                </div>
+                        <!-- Hero Poppup Menu Start -->
+                <div class="popup-menu" id="popup-menu" onclick="closeMenu()">
+                    <div class="popup-close-menu">
+                        <a href="javascript:void()" onclick="closeMenu()"><ion-icon name="close-circle-outline"></ion-icon></a>
+                    </div>
+                    <ul>
+                        <li><a href="#hero" onclick="closeMenu()" >Home</a></li>
+                        <li><a href="#about-me" onclick="closeMenu()" >About</a></li>
+                        <li><a href="#process" onclick="closeMenu()" >Process</a></li>
+                        <li><a href="#details" onclick="closeMenu()" >Experience</a></li>
+                        <li><a href="#work" onclick="closeMenu()" >Work</a></li>
+                        <li><a href="#tm" onclick="closeMenu()" >Testimonial</a></li>
+                        <li><a href="#contact" onclick="closeMenu()" >Contact</a></li>
+                    </ul>
+                </div>
+                        <!-- Hero Poppup Menu End-->
+                </div>
+                <div class="menu-content">
+                    <div data-uk-scrollspy="cls: uk-animation-slide-left; repeat:true">
+                        <h1>Prince Mahamud</h1>
+                    </div>
+                    <div data-uk-scrollspy="cls: uk-animation-slide-right; repeat:true">
+                        <span id="sub-menu-content">#User Experience  #Music  #Creative Direction</span>
+                    </div>                                             
+                </div>
+                <div class="down-icon">
+                    <a href="#about-me"><ion-icon name="arrow-down-circle-outline"></ion-icon></a>
+                </div>
+        </div>
+    </header>
+            <!-- end hero area -->
+
+            <!-- Start About area -->
+    <section id="about-me">
+        <div class="container">
+            <div class="about">
+                <div class="about-item">
+                    <img src="resources/img/paul.jpg" alt="paul" class="paul">
+                </div>
+                <div class="about-item">
+                    <h4>Hi, I'm Prince, Experience crafter from Canada.</h4>
+                    <p class="about-item-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.
+                    <br><br>
+                    Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore. </p>
+                    <div class="about-btn btn-clr">
+                        <a href="javascript:void()" class="btn">Hire Me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+            <!-- End About area -->
+            
+            <!-- Start Process Section -->           
+    <section id="process">
+        <div class="container">
+            <div class="process-content">
+                <h2>My Working Process</h2>
+                <span class="process-content-span">Hi, i'm Prince, Experience crafter from Canada.</span>
+            </div>
+            <div class="process-grid">
+                <div class="process-icon wow flipOutY" data-wow-delay=".5s" data-wow-iteration="2">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                    <h4>Design</h4>
+                </div>
+                <div class="process-icon wow flipOutY" data-wow-delay="1s" data-wow-iteration="2">
+                    <ion-icon name="airplane-outline"></ion-icon>
+                    <h4>Development</h4>
+                </div>
+                <div class="process-icon wow flipOutY" data-wow-delay="1.5s" data-wow-iteration="2">
+                    <ion-icon name="american-football-outline"></ion-icon>
+                    <h4>Testing</h4>
+                </div>
+                <div class="process-icon wow flipOutY" data-wow-delay="2s" data-wow-iteration="2">
+                    <ion-icon name="airplane-outline"></ion-icon>
+                    <h4>Launch</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!-- End Process Section -->
+
+            <!-- Start Details Section -->
+    <section id="details">
+        <div class="container">
+            <div class="details-content">
+                <div class="left-side">
+                    <h3>Work Experience</h3>
+                    <h4>Mad Max Design</h4>
+                    <span class="date">OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam doloribus atque, odit blanditiis non corporis explicabo? Sit, laborum culpa!</p>
+                    <hr>
+                    <h4>Crazy Design</h4>
+                    <span class="date">OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam doloribus atque, odit blanditiis non corporis explicabo? Sit, laborum culpa!</p>
+                </div>
+                <div class="right-side">
+                    <h3>Education</h3>
+                    <h4>Maddison University</h4>
+                    <span class="date">OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam doloribus atque, odit blanditiis non corporis explicabo? Sit, laborum culpa!</p>
+                    <hr>
+                    <h4>Max Design & Art Institute</h4>
+                    <span class="date">OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam doloribus atque, odit blanditiis non corporis explicabo? Sit, laborum culpa!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!-- End Details Section -->
+
+            <!-- Start Work Section -->
+    <section id="work">
+        <div class="container">
+            <div class="process-content">
+                <h2>My Latest Works</h2>
+                <span class="process-content-span">Hi, i'm Prince, Experience crafter from Canada.</span>
+            </div>
+            <div class="work-dropdown">               
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".web-design">Web-Design</button>
+                <button type="button" data-filter=".web-development">Web-Development</button>
+                <button type="button" data-filter=".wordpress">WordPress</button>
+            </div>
+            <div class="work-grid" data-uk-lightbox="animation: fade">
+                <div class="work-grid-img mix web-development">
+                    <a href="resources/img/lwp1.jpeg" data-caption="Image 1">
+                        <img src="resources/img/lwp1.jpeg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-img mix web-design">
+                    <a href="resources/img/lwp2.jpg" data-caption="Image 2">
+                        <img src="resources/img/lwp2.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-img mix web-development">
+                    <a href="resources/img/lwp3.jpg" data-caption="Image 3">
+                        <img src="resources/img/lwp3.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-img mix web-design">
+                    <a href="resources/img/lwp4.jpg" data-caption="Image 4">
+                        <img src="resources/img/lwp4.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-img mix web-development">
+                    <a href="resources/img/lwp5.jpg" data-caption="Image 5">
+                        <img src="resources/img/lwp5.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-img mix wordpress">
+                    <a href="resources/img/lwp6.jpg" data-caption="Image 6">
+                        <img src="resources/img/lwp6.jpg" alt="Work">
+                    </a>
+                </div>
+                <div class="work-grid-img mix wordpress">
+                    <a href="resources/img/lwp7.jpg" data-caption="Image 7">
+                        <img src="resources/img/lwp7.jpg" alt="Work">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>        
+            <!-- End Work Section -->
+
+            <!-- Start Testimonial Section -->
+    <section id="tm">
+        <div class="container">
+            <div class="tm-content">
+                <img src="resources/testimonial/quote.png" alt="" class="tm-icon">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex ratione quaerat et unde nesciunt nihil cum voluptatibus saepe quam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, enim.</p>
+                <img src="resources/testimonial/signature.png" alt="Prince" class="tm-signature">
+                <h4>Prince Mahamud</h4>
+                <span>Creative Designer</span>
+            </div>
+        </div>
+    </section>
+            <!-- End Testimonial Section -->
+
+            <!-- Start Contact Section -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-grid-item">
+                <h3>Leave a message</h3>
+                <form action="javascript:void()" method="post">
+                    <input type="text" placeholder="Name*" name="name" required>
+                    <input type="email" placeholder="Email*" name="email" required>
+                    <input type="text" placeholder="Subject*" name="subject" required>
+                    <textarea placeholder="Message*" required></textarea>
+                    <div class="contact-btn" >
+                        <input type="submit" value="Hire Me!">
+                    </div>
+                </form>
+             </div>
+            <div class="contact-grid-item nested-contact-grid">
+                <div class="nested-contact-grid-item">
+                    <h3>Address</h3>
+                    <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                </div>
+                <div class="nested-contact-grid-item">
+                    <h3>Phone</h3>
+                    <span>01777778888</span>
+                    <span>01544444444</span>
+                </div>
+                <div class="nested-contact-grid-item">
+                    <h3>Address</h3>
+                    <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                </div>
+            </div>
+         </div>
+        </div>
+    </section>
+            <!-- End Contact Section -->
+
+            <!-- Start footer Section -->
+    <footer id="last">
+        <div class="container">
+            <div class="social">
+                <ul>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                Copyright:<a href="#">Prince</a> | All Rights Reserved.
+            </div>
+            <div class="footer-icon">
+                <a href="#hero" data-uk-totop data-uk-scroll></a>
+            </div>
+        </div>
+    </footer>
+            <!-- Start footer Section -->
+            
+       <!--All Js file here-->
+    <script src="vendors/js/jquery-3.6.0.min.js"></script>
+    <script src="vendors/js/wow.min.js"></script>
+    <script src="vendors/js/modernizr-3.11.2.min.js"></script>
+        <!--Ion Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!-- Ion Icons End Here -->
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/uikit.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>

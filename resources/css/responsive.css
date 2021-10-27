@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px){
+    .about-btn .btn{
+        margin-top: 10rem;
+    }
+    .container{
+        margin: 0 8rem;
+    }
+    .process-grid{
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 1rem;
+    }
+    .process-grid h4{
+        font-size: 1.8rem;
+    }    
+}
+
+@media screen and (max-width: 992px){
+    .work-grid{
+        grid-gap: .2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 6rem;
+        text-align: center;
+    }
+    .about img{
+        width: 80%;
+    }
+    .paul{
+        -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .about-btn{
+        margin-top: 4rem;
+        display: block;
+        text-align: center;
+    }
+    .btn:link,
+    .btn:visited{
+        padding: .9rem 8rem;
+    }
+    #about-me{
+        padding: 8rem 0;
+    }
+    .work-grid{
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: .5rem;
+    }
+    .process-icon {
+        padding: 6rem;
+    }
+    .process-icon ion-icon {
+        font-size: 5rem;
+    }
+    #tm {
+        background-image: none;
+        background: #CCCCCC;
+        text-align: center;
+    }
+    .tm-content p {
+        width: 100%;
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    html{
+        font-size: 58%;
+    }
+    .process-icon ion-icon {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+    .details-content {
+        grid-template-columns: 1fr;
+    }
+    .work-grid-img:nth-child(5){
+        grid-column: 1;
+    }
+}
+@media screen and (max-width: 556px){
+    .process-grid{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .process-icon ion-icon {
+        font-size: 4rem;
+    }
+    .process-icon {
+        padding: 4rem 0;
+    }
+}
+@media screen and (max-width: 480px){
+    h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+    .menu-area{
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .work-grid{
+        grid-template-columns: 1fr;
+    }
+    .work-dropdown {
+        line-height: 4rem;
+    }
+    .paul {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px){
+    .btn:link{
+        font-size: 1.5rem;
+    }
+    .paul {
+        width: 100%;
+    }
+}
